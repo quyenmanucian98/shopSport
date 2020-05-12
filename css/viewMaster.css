@@ -52,6 +52,15 @@
 	padding-left: 10%;
 	padding-top: 2%;
 }
+
+.header .container #search input{
+	border: 1px solid violet;
+
+}
+.header .container #search button{
+	border: 1px solid violet;
+}
+
 .header .container #login{
 	float: left;
 	padding-left: 10%;
