@@ -1,0 +1,68 @@
+.header {
+	height: 90px;
+}
+
+.header .container {
+	height: 100%;
+	width: 100%;
+	background: pink;
+}
+
+.header .container #logo {
+	position: relative;
+	height: 100%;
+	width: 150px;
+	float: left;
+}
+
+.header .container #logo img {
+	position: absolute;
+	height: 100%;
+	width: 150px;
+}
+
+.header .container #support {
+	float: left;
+	padding-left: 10%;
+	padding-top: 30px;
+}
+
+.header .container #support img {
+	border: 1px solid grey;
+	float: left;
+}
+
+.header .container #support #hotline {
+	float: left;
+	margin-top: -15px;
+	padding-left: 16px;
+}
+
+.header .container #support #hotline p {
+	color: gray;
+
+}
+
+.header .container #support #hotline h5 {
+	color: red;
+	font-weight: bold;
+}
+
+.header .container #search .form-inline {
+	padding-left: 7%;
+	padding-top: 2%;
+}
+
+.header .container #search .form-inline input {
+	width: 49%;
+	position: relative;
+}
+
+.header .container #search .form-inline button {
+	background: white;
+	border: white;
+	position: absolute;
+
+
+}
+
