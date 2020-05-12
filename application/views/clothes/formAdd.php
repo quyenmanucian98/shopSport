@@ -40,7 +40,8 @@
 						<input class="input--style-3" type="file" name="image">
 					</div>
 					<div class="p-t-10">
-						<button class="btn btn--pill btn--green" type="submit">Submit</button>
+						<a href="<?php echo site_url('home')?>" class="btn btn--pill btn--blue" type="submit">Hủy</a>
+						<button class="btn btn--pill btn--green" type="submit">Tải Lên</button>
 					</div>
 				</form>
 			</div>
