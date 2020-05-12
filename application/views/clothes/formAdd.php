@@ -37,7 +37,8 @@
 						<input class="input--style-3" type="text" placeholder="Loại sản phẩm" name="type_id">
 					</div>
 					<div class="input-group">
-						<input class="input--style-3" type="file" name="image">
+						<button style="background: pink; width: 100%; color: black" class="btn btn-outline-info upload">Tải ảnh lên</button>
+						<input class="input--style-3 image" type="file" name="image" style="display: none">
 					</div>
 					<div class="p-t-10">
 						<a href="<?php echo site_url('home')?>" class="btn btn--pill btn--blue" type="submit">Hủy</a>
@@ -54,3 +55,4 @@
 <script src="<?php echo base_url('vendor/select2/select2.min.js') ?>"></script>
 <script src="<?php echo base_url('vendor/datepicker/moment.min.js') ?>"></script>
 <script src="<?php echo base_url('vendor/datepicker/daterangepicker.js') ?>"></script>
+<script src="<?php echo base_url('js/add.js')?>" ></script>
