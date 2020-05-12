@@ -24,11 +24,16 @@
 			</div>
 		</div>
 		<div id="search">
-			<form class="form-inline">
+			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-success" type="submit"><img src="https://img.icons8.com/ios-filled/23/000000/search.png"/></button>
+				<button class="btn btn-outline-success" type="submit"><img src="https://img.icons8.com/ios-filled/23/000000/search.png"/></button>
 			</form>
 		</div>
+		<div id="login">
+			<a href="">Đăng Nhập</a>
+		</div>
+	</div>
+	<div id="menu">
 
 	</div>
 </div>

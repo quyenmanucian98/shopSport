@@ -5,7 +5,6 @@
 .header .container {
 	height: 100%;
 	width: 100%;
-	background: pink;
 }
 
 .header .container #logo {
@@ -48,21 +47,23 @@
 	font-weight: bold;
 }
 
-.header .container #search .form-inline {
-	padding-left: 7%;
+.header .container #search{
+	float: left;
+	padding-left: 10%;
 	padding-top: 2%;
 }
-
-.header .container #search .form-inline input {
-	width: 49%;
-	position: relative;
+.header .container #login{
+	float: left;
+	padding-left: 10%;
+	padding-top: 2.5%;
+	font-weight: bold;
+	font-size: 20px;
+}
+.header .container #login a{
+	text-decoration: none;
 }
 
-.header .container #search .form-inline button {
-	background: white;
-	border: white;
-	position: absolute;
 
 
-}
+
 
