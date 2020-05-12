@@ -64,6 +64,9 @@
 				<li>
 					<a href="">Bóng</a>
 				</li>
+				<li>
+					<a href="<?php echo site_url('create-new-clothes') ?>">upload</a>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -72,13 +75,13 @@
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="<?php echo base_url('logo/slide1.png')?>" class="d-block w-100" alt="...">
+						<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="<?php echo base_url('logo/slide2.png')?>" class="d-block w-100" alt="...">
+						<img src="<?php echo base_url('logo/slide2.png') ?>" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="<?php echo base_url('logo/slide3.png')?>" class="d-block w-100" alt="...">
+						<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -94,7 +97,9 @@
 	</div>
 </div>
 <div class="content">
-
+	<div class="container">
+		<!--		--><?php //echo $this->load->view($view) ?>
+	</div>
 </div>
 <div class="footer">
 

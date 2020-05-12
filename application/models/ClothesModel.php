@@ -7,4 +7,9 @@ class ClothesModel extends CI_Model
 	{
 		$this->load->database();
 	}
+
+	public function add($clothes)
+	{
+		return $this->db->insert('clothes', $clothes);
+	}
 }
