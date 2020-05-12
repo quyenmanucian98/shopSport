@@ -26,7 +26,8 @@
 		<div id="search">
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success" type="submit"><img src="https://img.icons8.com/ios-filled/23/000000/search.png"/></button>
+				<button class="btn btn-outline-success" type="submit"><img
+							src="https://img.icons8.com/ios-filled/23/000000/search.png"/></button>
 			</form>
 		</div>
 		<div id="login">
@@ -34,7 +35,62 @@
 		</div>
 	</div>
 	<div id="menu">
-
+		<div class="container">
+			<ul>
+				<li>
+					<a href="">Trang chủ</a>
+				</li>
+				<li>
+					<a href="">Áo CLB</a>
+				</li>
+				<li>
+					<a href="">Áo tuyển quốc gia</a>
+				</li>
+				<li>
+					<a href="">Áo không logo</a>
+				</li>
+				<li>
+					<a href="">Giày bóng đá</a>
+				</li>
+				<li>
+					<a href="">Phụ kiện</a>
+				</li>
+				<li>
+					<a href="">Áo khoác</a>
+				</li>
+				<li>
+					<a href="">Áo dài tay</a>
+				</li>
+				<li>
+					<a href="">Bóng</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="slide">
+		<div class="container">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="<?php echo base_url('logo/slide1.png')?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?php echo base_url('logo/slide2.png')?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?php echo base_url('logo/slide3.png')?>" class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="content">
