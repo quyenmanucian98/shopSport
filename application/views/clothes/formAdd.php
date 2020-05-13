@@ -23,6 +23,7 @@
 			<div class="card-heading"></div>
 			<div class="card-body">
 				<h2 class="title">Thêm Mới Sản Phẩm</h2>
+				<div><?php echo $this->session->flashdata('upload-clothes-fail') ?></div>
 				<form method="post" action="<?php echo site_url('create-clothes-success') ?>"
 					  enctype="multipart/form-data">
 					<div class="input-group">
@@ -38,9 +39,6 @@
 						<input class="input--style-3" type="text" placeholder="Loại sản phẩm" name="type_id">
 					</div>
 					<div class="input-group">
-<!--						<button style="background: pink; width: 100%; color: black" class="btn btn-outline-info upload">-->
-<!--							Tải ảnh lên-->
-<!--						</button>-->
 						<input class="input--style-3 image" type="file" name="image">
 					</div>
 					<div class="p-t-10">

@@ -38,9 +38,10 @@ class ClothesController extends CI_Controller
 			'image' => implode(" ", $image)
 		);
 		if ($this->ClothesModel->add($clothes)) {
-			echo 'success';
+			redirect('home');
 		} else {
-			echo 'fail';
+			$this->session->set_flashdata('upload-clothes-fail', 'Thêm sản phẩm thất bại, vui lòng kiểm tra lại');
+			$this->load->view('clothes/formAdd');
 		}
 	}
 }
