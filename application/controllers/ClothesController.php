@@ -23,7 +23,7 @@ class ClothesController extends CI_Controller
 
 	public function create()
 	{
-		$config['upload_path'] = './upload';
+		$config['upload_path'] = './clothes';
 		$config['allowed_types'] = '*';
 		$config['encrypt_name'] = true;
 		$this->load->library('upload', $config);
@@ -31,23 +31,13 @@ class ClothesController extends CI_Controller
 		$image = $this->upload->data();
 
 		$phone = array(
-			'name' => $this->input->post('name'),
-			'type_id' => $this->input->post('type_id'),
-			'user_id' => $this->input->post('user_id'),
-			'color' => $this->input->post('color'),
+			'title' => $this->input->post('title'),
 			'price' => $this->input->post('price'),
-			'cpacity' => $this->input->post('cpacity'),
+			'numbers' => $this->input->post('numbers'),
+			'type_id' => $this->input->post('type_id'),
 			'avatar' => implode(" ", $image)
 		);
-		if (empty($_FILES['image']['name'])) {
-			$this->form_validation->set_rules('image', 'Image', 'required');
-		}
-		if ($this->form_validation->run()) {
 			$this->PhoneModel->add($phone);
-		} else {
-			$data['types'] = $this->TypeModel->getAll();
-			return $this->load->view('phone/formAdd', $data);
-		}
 
 		redirect('home');
 	}

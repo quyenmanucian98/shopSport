@@ -47,40 +47,44 @@
 	font-weight: bold;
 }
 
-.header .container #search{
+.header .container #search {
 	float: left;
 	padding-left: 10%;
 	padding-top: 2%;
 }
 
-.header .container #search input{
+.header .container #search input {
 	border: 1px solid violet;
 
 }
-.header .container #search button{
+
+.header .container #search button {
 	border: 1px solid violet;
 }
 
-.header .container #login{
+.header .container #login {
 	float: left;
 	padding-left: 10%;
 	padding-top: 2.5%;
 	font-weight: bold;
 	font-size: 20px;
 }
-.header .container #login a{
+
+.header .container #login a {
 	text-decoration: none;
 }
 
-.header #menu{
+.header #menu {
 	height: 50px;
 	background: darkblue;
 	width: 100%;
 }
-.header #menu ul{
+
+.header #menu ul {
 	list-style: none;
 }
-.header #menu ul li{
+
+.header #menu ul li {
 	list-style: none;
 	float: left;
 	line-height: 50px;
@@ -88,11 +92,10 @@
 
 }
 
-.header #menu ul li a{
+.header #menu ul li a {
 	text-decoration: none;
 	color: white;
 }
-
 
 
 
