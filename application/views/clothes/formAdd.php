@@ -23,7 +23,8 @@
 			<div class="card-heading"></div>
 			<div class="card-body">
 				<h2 class="title">Thêm Mới Sản Phẩm</h2>
-				<form method="POST">
+				<form method="post" action="<?php echo site_url('create-clothes-success') ?>"
+					  enctype="multipart/form-data">
 					<div class="input-group">
 						<input class="input--style-3" type="text" placeholder="Tiêu đề sản phẩm" name="title">
 					</div>
@@ -31,17 +32,19 @@
 						<input class="input--style-3 js-datepicker" type="text" placeholder="Giá sản phẩm" name="Price">
 					</div>
 					<div class="input-group">
-						<input class="input--style-3" type="email" placeholder="Số lượng sản phẩm" name="numbers">
+						<input class="input--style-3" type="number" placeholder="Số lượng sản phẩm" name="numbers">
 					</div>
 					<div class="input-group">
 						<input class="input--style-3" type="text" placeholder="Loại sản phẩm" name="type_id">
 					</div>
 					<div class="input-group">
-						<button style="background: pink; width: 100%; color: black" class="btn btn-outline-info upload">Tải ảnh lên</button>
-						<input class="input--style-3 image" type="file" name="image" style="display: none">
+<!--						<button style="background: pink; width: 100%; color: black" class="btn btn-outline-info upload">-->
+<!--							Tải ảnh lên-->
+<!--						</button>-->
+						<input class="input--style-3 image" type="file" name="image">
 					</div>
 					<div class="p-t-10">
-						<a href="<?php echo site_url('home')?>" class="btn btn--pill btn--blue" type="submit">Hủy</a>
+						<a href="<?php echo site_url('home') ?>" class="btn btn--pill btn--blue" type="submit">Hủy</a>
 						<button class="btn btn--pill btn--green" type="submit">Tải Lên</button>
 					</div>
 				</form>
@@ -55,4 +58,4 @@
 <script src="<?php echo base_url('vendor/select2/select2.min.js') ?>"></script>
 <script src="<?php echo base_url('vendor/datepicker/moment.min.js') ?>"></script>
 <script src="<?php echo base_url('vendor/datepicker/daterangepicker.js') ?>"></script>
-<script src="<?php echo base_url('js/add.js')?>" ></script>
+<script src="<?php echo base_url('js/add.js') ?>"></script>

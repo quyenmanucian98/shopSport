@@ -30,15 +30,17 @@ class ClothesController extends CI_Controller
 		$this->upload->do_upload('image');
 		$image = $this->upload->data();
 
-		$phone = array(
+		$clothes = array(
 			'title' => $this->input->post('title'),
 			'price' => $this->input->post('price'),
 			'numbers' => $this->input->post('numbers'),
 			'type_id' => $this->input->post('type_id'),
-			'avatar' => implode(" ", $image)
+			'image' => implode(" ", $image)
 		);
-			$this->PhoneModel->add($phone);
-
-		redirect('home');
+		if ($this->ClothesModel->add($clothes)) {
+			echo 'success';
+		} else {
+			echo 'fail';
+		}
 	}
 }
