@@ -7,8 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Trang Chủ</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url('css/viewMaster.css') ?>">g
+		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php echo base_url('css/viewMaster.css') ?>">
 </head>
 <body>
 <div class="header">
@@ -71,24 +71,37 @@
 		</div>
 	</div>
 	<div class="slide">
+		<div class="container">
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="container">
-				<div class="carousel-item active">
-					<img src="<?php echo base_url('logo/slide1.png')?>" class="d-block w-100" alt="...">
+					<div class="carousel-item active">
+						<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?php echo base_url('logo/slide2.png') ?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
+					</div>
 				</div>
-				<div class="carousel-item">
-					<img src="<?php echo base_url('logo/slide2.png')?>" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="list">
+		<div class="container">
+			<div class="row">
+				<div class="container">
+				<div id="menu-list-clothes-left" class="col-lg-4">
+
 				</div>
-				<div class="carousel-item">
-					<img src="<?php echo base_url('logo/slide3.png')?>" class="d-block w-100" alt="...">
+				<div class="col-lg-8">
+
 				</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="list">
-
 	</div>
 </div>
 
