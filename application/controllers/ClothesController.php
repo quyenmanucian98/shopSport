@@ -22,15 +22,19 @@ class ClothesController extends CI_Controller
 		return $this->load->view('clothes/formAdd', $data);
 	}
 
-	public function create()
+	public function uploadImage($image)
 	{
 		$config['upload_path'] = './clothes';
 		$config['allowed_types'] = '*';
 		$config['encrypt_name'] = true;
 		$this->load->library('upload', $config);
-		$this->upload->do_upload('image');
-		$image = $this->upload->data();
+		$this->upload->do_upload($image);
+		return $this->upload->data();
+	}
 
+	public function create()
+	{
+		$image = $this->uploadImage('image');
 		$clothes = array(
 			'title' => $this->input->post('title'),
 			'price' => $this->input->post('price'),
