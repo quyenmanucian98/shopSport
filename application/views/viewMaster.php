@@ -7,8 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Trang Chủ</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url('css/viewMaster.css') ?>">
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php echo base_url('css/viewMaster.css') ?>">g
 </head>
 <body>
 <div class="header">
@@ -70,48 +70,28 @@
 			</ul>
 		</div>
 	</div>
-	<div id="slide" class="container">
-		<div class="row">
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	<div class="slide">
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
 				<div class="container">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="<?php echo base_url('logo/slide2.png') ?>" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
-						</div>
-					</div>
+				<div class="carousel-item active">
+					<img src="<?php echo base_url('logo/slide1.png')?>" class="d-block w-100" alt="...">
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+				<div class="carousel-item">
+					<img src="<?php echo base_url('logo/slide2.png')?>" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="<?php echo base_url('logo/slide3.png')?>" class="d-block w-100" alt="...">
+				</div>
+				</div>
 			</div>
 		</div>
-		<div style="background: gainsboro">
-			<div id="menu-clothes-clb-left">
-				<h5>Áo Câu Lạc Bộ 2020</h5>
-			</div>
-			<div id="menu-clothes-clb-right">
-
-			</div>
-		</div>
-		<div>
-			<div id="list-clothes-clb">
-
-			</div>
-		</div>
+	</div>
+	<div class="list">
 
 	</div>
 </div>
+
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
