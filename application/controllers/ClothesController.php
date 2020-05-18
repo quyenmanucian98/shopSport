@@ -45,4 +45,10 @@ class ClothesController extends CI_Controller
 			$this->load->view('clothes/formAdd');
 		}
 	}
+
+	public function clothesDetail($id)
+	{
+		$data['clothesById'] = $this->ClothesModel->getClothesById($id);
+		$this->load->view('clothes/clothesDetail', $data);
+	}
 }

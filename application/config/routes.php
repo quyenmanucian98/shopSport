@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['home'] = 'ClothesController/home';
 $route['create-new-clothes'] = 'ClothesController/formAdd';
 $route['create-clothes-success'] = 'ClothesController/create';
+$route['clothes-detail/(:num)'] = 'ClothesController/clothesDetail/$1';

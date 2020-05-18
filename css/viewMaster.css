@@ -97,3 +97,15 @@
 	color: white;
 }
 
+.price {
+	color: red;
+	font-weight: bold;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 7%;
+}
+
+a:hover {
+	color: red;
+}

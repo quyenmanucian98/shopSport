@@ -101,19 +101,23 @@
 						<div id="carouselExampleControls" class="carousel slide mt-3" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active" style="text-align: center">
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Ngoại Hạng
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
+										Ngoại Hạng
 										Anh</a>
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Tây Ban
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
+										Tây Ban
 										Nha</a>
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Đức</a>
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
+										Đức</a>
 								</div>
 								<div class="carousel-item" style="text-align: center">
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Ý</a>
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
+										Ý</a>
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
 										MLS</a>
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
 										Hà Lan</a>
-									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+									<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giải
 										Pháp</a>
 								</div>
 							</div>
@@ -141,21 +145,44 @@
 										 src="<?php echo base_url() ?>clothes/<?php echo $clothesClb->image ?>"
 										 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
 									<div class="card-body">
-										<h5 class="card-title"><a href="" style="text-decoration: none; color: black;"><?php echo $clothesClb->title ?></a></h5>
-
-										<p class="card-text">
-											
-										</p>
+										<h5 class="card-title">
+											<a href="<?php echo site_url('clothes-detail') ?>/<?php echo $clothesClb->id ?>"
+											   style="text-decoration: none; color: black;">
+												<?php echo $clothesClb->title ?>
+											</a>
+										</h5>
+										<div style="text-align: left" class="ml-2">
+											<div>
+												<span class="price">30.000 đ </span>
+												<span>(Vải gai xốp)</span>
+											</div>
+											<div>
+												<span class="price">70.000 đ</span>
+												<span>(Vai thun mịn)</span>
+											</div>
+											<div>
+												<span class="price">100.000 đ</span>
+												<span>(Hàng ST)</span>
+											</div>
+											<div>
+												<span class="price">160.000 đ</span>
+												<span>(Hàng ET)</span>
+											</div>
+											<div>
+												<span class="price">200.000 đ</span>
+												<span>(Hàng body fit player)</span>
+											</div>
+										</div>
 									</div>
 								</div>
 							<?php endforeach; ?>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="..." alt="Second slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="..." alt="Third slide">
-						</div>
+						<!--						<div class="carousel-item">-->
+						<!--							<img class="d-block w-100" src="..." alt="Second slide">-->
+						<!--						</div>-->
+						<!--						<div class="carousel-item">-->
+						<!--							<img class="d-block w-100" src="..." alt="Third slide">-->
+						<!--						</div>-->
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
