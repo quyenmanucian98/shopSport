@@ -110,8 +110,21 @@ a:hover {
 	color: red;
 }
 
-.list-clothes-CT{
+.list-clothes-CT {
 	height: 60px;
-	background: red;
+	margin-top: 2%;
 	width: 100%;
 }
+
+.list-clothes-CT #menu-clothes-CT-left {
+	background: #0000FF;
+	height: 60px;
+	float: left;
+}
+
+.list-clothes-CT #menu-clothes-CT-right {
+	background: gainsboro;
+	height: 60px;
+	float: left;
+}
+

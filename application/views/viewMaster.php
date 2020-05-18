@@ -294,9 +294,42 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="container">
-					<div class="list-clothes-CT">
+				<div class="list-clothes-CT">
+					<div class="row">
+						<div class="container">
+							<div class="col-lg-3" id="menu-clothes-CT-left">
+								<h5 style="color: white; text-align: center; margin-top: 6%">Áo Đội Tuyển Quốc Gia</h5>
+							</div>
+							<div class="col-lg-9" id="menu-clothes-CT-right">
+								<div id="carouselExampleControls2" class="carousel slide mt-3" data-ride="carousel">
+									<div class="carousel-inner">
+										<div class="carousel-item active" style="text-align: center">
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Anh</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Pháp</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Tây Ban Nha</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Bỉ</a>
+										</div>
+										<div class="carousel-item" style="text-align: center">
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Ý</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Đức</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Bồ Đào Nha</a>
+											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Hà Lan</a>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleControls2" role="button"
+									   data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleControls2" role="button"
+									   data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
 
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
