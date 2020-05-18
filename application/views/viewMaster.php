@@ -139,7 +139,7 @@
 				<div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<div class="card center ml-1" style="width: 17rem; float: left;">
+							<div class="card center " style="width: 17.33rem; float: left;">
 								<img class="card-img-top"
 									 src="<?php echo base_url() ?>clothes/<?php echo $clothesClbs[0]->image ?>"
 									 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
@@ -174,7 +174,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="card center ml-1" style="width: 17rem; float: left;">
+							<div class="card center " style="width: 17.33rem; float: left;">
 								<img class="card-img-top"
 									 src="<?php echo base_url() ?>clothes/<?php echo $clothesClbs[1]->image ?>"
 									 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
@@ -209,7 +209,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="card center ml-1" style="width: 17rem; float: left;">
+							<div class="card center" style="width: 17.33rem; float: left;">
 								<img class="card-img-top"
 									 src="<?php echo base_url() ?>clothes/<?php echo $clothesClbs[2]->image ?>"
 									 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
@@ -244,7 +244,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="card center ml-1" style="width: 17rem; float: left;">
+							<div class="card center " style="width: 17.33rem; float: left;">
 								<img class="card-img-top"
 									 src="<?php echo base_url() ?>clothes/<?php echo $clothesClbs[3]->image ?>"
 									 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
@@ -289,6 +289,15 @@
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="list-clothes-CT">
+
+					</div>
 				</div>
 			</div>
 		</div>

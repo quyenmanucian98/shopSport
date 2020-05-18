@@ -109,3 +109,9 @@
 a:hover {
 	color: red;
 }
+
+.list-clothes-CT{
+	height: 60px;
+	background: red;
+	width: 100%;
+}
