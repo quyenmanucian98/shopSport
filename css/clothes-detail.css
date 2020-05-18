@@ -1,0 +1,98 @@
+.header {
+	height: 90px;
+}
+
+.header .container {
+	height: 100%;
+	width: 100%;
+}
+
+.header .container #logo {
+	position: relative;
+	height: 100%;
+	width: 150px;
+	float: left;
+}
+
+.header .container #logo img {
+	position: absolute;
+	height: 100%;
+	width: 150px;
+}
+
+.header .container #support {
+	float: left;
+	padding-left: 10%;
+	padding-top: 30px;
+}
+
+.header .container #support img {
+	border: 1px solid grey;
+	float: left;
+}
+
+.header .container #support #hotline {
+	float: left;
+	margin-top: -15px;
+	padding-left: 16px;
+}
+
+.header .container #support #hotline p {
+	color: gray;
+
+}
+
+.header .container #support #hotline h5 {
+	color: red;
+	font-weight: bold;
+}
+
+.header .container #search {
+	float: left;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+
+.header .container #search input {
+	border: 1px solid violet;
+
+}
+
+.header .container #search button {
+	border: 1px solid violet;
+}
+
+.header .container #login {
+	float: left;
+	padding-left: 10%;
+	padding-top: 2.5%;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.header .container #login a {
+	text-decoration: none;
+}
+
+.header #menu {
+	height: 50px;
+	background: darkblue;
+	width: 100%;
+}
+
+.header #menu ul {
+	list-style: none;
+}
+
+.header #menu ul li {
+	list-style: none;
+	float: left;
+	line-height: 50px;
+	padding: 0px 16px 0px 16px;
+
+}
+
+.header #menu ul li a {
+	text-decoration: none;
+	color: white;
+}
