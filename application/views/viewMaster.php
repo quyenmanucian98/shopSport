@@ -94,10 +94,40 @@
 				<div class="container">
 					<div id="menu-list-clothes-left" class="col-lg-3"
 						 style="width: 100%; height: 60px; background: blue; float: left">
-						<h5 style="color: white; text-align: center; margin-top: 6%; font-size: 20px">Áo Câu Lạc Bộ 2020</h5>
+						<h5 style="color: white; text-align: center; margin-top: 6%; font-size: 20px">Áo Câu Lạc Bộ
+							2020</h5>
 					</div>
 					<div class="col-lg-9" style="width: 100%; height: 60px; background: gainsboro; float: left">
-
+						<div id="carouselExampleControls" class="carousel slide mt-3" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active" style="text-align: center">
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Ngoại Hạng
+										Anh</a>
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Tây Ban
+										Nha</a>
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Đức</a>
+								</div>
+								<div class="carousel-item" style="text-align: center">
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải Ý</a>
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+										MLS</a>
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+										Hà Lan</a>
+									<a href="" style="text-decoration: none; padding: 0px 20px 0px 20px">Giải
+										Pháp</a>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+							   data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+							   data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
