@@ -77,14 +77,19 @@
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 style="text-align: center" class="modal-title" id="exampleModalLabel">Loại Sản Phẩm Muốn Tải Lên</h5>
+									<h5 style="text-align: center;margin-left: auto; font-weight: bold; font-size: 20px">Loại Sản
+										Phẩm Muốn Tải Lên</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
 								<div class="modal-body">
-									<a href="<?php echo site_url('create-new-clothes') ?>"
-									   style="font-size: 17px; font-weight: bold">Upload</a>
+									<a class="btn btn-warning ml-5" href="<?php echo site_url('create-new-clothes') ?>"
+									   style="font-size: 17px; font-weight: bold">Áo Bóng Đá</a>
+									<a class="btn btn-info ml-4" href="<?php echo site_url('create-new-shoes') ?>"
+									   style="font-size: 17px; font-weight: bold">Giày Bóng Đá</a>
+									<a class="btn btn-success ml-4" href="<?php echo site_url('create-new-ball') ?>"
+									   style="font-size: 17px; font-weight: bold">Bóng</a>
 								</div>
 							</div>
 						</div>
