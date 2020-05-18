@@ -12,7 +12,7 @@ class ClothesController extends CI_Controller
 
 	public function home()
 	{
-		$data['clothesClb'] = $this->ClothesModel->getClothesClb();
+		$data['clothesClbs'] = $this->ClothesModel->getClothesClb();
 		return $this->load->view('viewMaster', $data);
 	}
 

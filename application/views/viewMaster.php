@@ -131,8 +131,41 @@
 					</div>
 				</div>
 			</div>
-			<div id="list-clothes-clb" style="height: 60px; background: green">
-				
+			<div id="list-clothes-clb">
+				<div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<?php foreach ($clothesClbs as $key => $clothesClb): ?>
+								<div class="card center" style="width: 18rem; float: left;">
+									<img class="card-img-top"
+										 src="<?php echo base_url() ?>clothes/<?php echo $clothesClb->image ?>"
+										 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
+									<div class="card-body">
+										<h5 class="card-title"><a href="" style="text-decoration: none; color: black;"><?php echo $clothesClb->title ?></a></h5>
+
+										<p class="card-text">
+											
+										</p>
+									</div>
+								</div>
+							<?php endforeach; ?>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="..." alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="..." alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

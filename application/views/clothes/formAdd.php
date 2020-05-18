@@ -30,7 +30,7 @@
 						<input class="input--style-3" type="text" placeholder="Tiêu đề sản phẩm" name="title">
 					</div>
 					<div class="input-group">
-						<input class="input--style-3 js-datepicker" type="text" placeholder="Giá sản phẩm" name="Price">
+						<input class="input--style-3 js-datepicker" type="text" placeholder="Giá sản phẩm" name="price">
 					</div>
 					<div class="input-group">
 						<input class="input--style-3" type="number" placeholder="Số lượng sản phẩm" name="numbers">
