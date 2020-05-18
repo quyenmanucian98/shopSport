@@ -20,9 +20,9 @@
 <body>
 
 <div class="contact1">
-	<div class="container-contact1" style="padding: 90px 130px 88px 90px;">
-		<div class="contact1-pic js-tilt" data-tilt >
-			<img src="<?php echo base_url()?>logo/adidasX.jpg" style="max-width: 500px;">
+	<div class="container-contact1" style="padding: 90px 130px 88px 90px;background: url('<?php echo base_url()?>logo/adidasX.jpg')">
+		<div class="contact1-pic js-tilt" data-tilt>
+			<img src="<?php echo base_url() ?>logo/adidasX.jpg" style="max-width: 500px;">
 		</div>
 
 		<form class="contact1-form validate-form">
