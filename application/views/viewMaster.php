@@ -71,10 +71,9 @@
 		</div>
 	</div>
 	<div class="slide">
-		<!--		<div class="container"></div>-->
+		<div class="container">
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="container">
 					<div class="carousel-item active">
 						<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
 					</div>
@@ -84,8 +83,8 @@
 					<div class="carousel-item">
 						<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
 					</div>
-				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 	<div class="list">
@@ -304,16 +303,32 @@
 								<div id="carouselExampleControls2" class="carousel slide mt-3" data-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active" style="text-align: center">
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Anh</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Pháp</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Tây Ban Nha</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Bỉ</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Anh</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Pháp</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Tây Ban Nha</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Bỉ</a>
 										</div>
 										<div class="carousel-item" style="text-align: center">
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Ý</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Đức</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Bồ Đào Nha</a>
-											<a href="" style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội tuyển Hà Lan</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Ý</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Đức</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Bồ Đào Nha</a>
+											<a href=""
+											   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Đội
+												tuyển Hà Lan</a>
 										</div>
 									</div>
 									<a class="carousel-control-prev" href="#carouselExampleControls2" role="button"
