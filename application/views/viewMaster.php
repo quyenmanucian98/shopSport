@@ -71,7 +71,7 @@
 		</div>
 	</div>
 	<div class="slide">
-		<div class="container">
+		<!--		<div class="container"></div>-->
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="container">
@@ -87,19 +87,22 @@
 				</div>
 			</div>
 		</div>
-		</div>
 	</div>
 	<div class="list">
 		<div class="container">
 			<div class="row">
 				<div class="container">
-				<div id="menu-list-clothes-left" class="col-lg-4">
+					<div id="menu-list-clothes-left" class="col-lg-4"
+						 style="width: 100%; height: 60px; background: gold; float: left">
 
-				</div>
-				<div class="col-lg-8">
+					</div>
+					<div class="col-lg-8" style="width: 100%; height: 60px; background: red; float: left">
 
+					</div>
 				</div>
-				</div>
+			</div>
+			<div class="row">
+
 			</div>
 		</div>
 	</div>
