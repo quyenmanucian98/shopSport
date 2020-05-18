@@ -97,5 +97,35 @@
 	color: white;
 }
 
+.header #menu-clothes-clb-left {
+	margin-top: 10px;
+	height: 60px;
+	background: blue;
+	width: 20%;
+	float: left;
+	/*border-top-right-radius: 100px;*/
+}
 
+.header #menu-clothes-clb-right {
+	margin-top: 10px;
+	width: 80%;
+	height: 60px;
+	background: gainsboro;
+	float: left;
+}
 
+.header #menu-clothes-clb-left h5 {
+	color: white;
+	margin-top: 7%;
+	text-align: center;
+}
+
+.header #menu-clothes-clb-left #title {
+	border-bottom-right-radius: 20px;
+	background: #0000FF;
+}
+.header #list-clothes-clb{
+	background: #00CC00;
+	height: 100px;
+	float: bottom;
+}

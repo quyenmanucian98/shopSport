@@ -70,18 +70,20 @@
 			</ul>
 		</div>
 	</div>
-	<div id="slide">
-		<div class="container">
+	<div id="slide" class="container">
+		<div class="row">
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="<?php echo base_url('logo/slide2.png') ?>" class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
+				<div class="container">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?php echo base_url('logo/slide2.png') ?>" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
+						</div>
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -94,15 +96,21 @@
 				</a>
 			</div>
 		</div>
-	</div>
-</div>
-<div class="content">
-	<div class="container">
-		<!--		--><?php //echo $this->load->view($view) ?>
-	</div>
-</div>
-<div class="footer">
+		<div style="background: gainsboro">
+			<div id="menu-clothes-clb-left">
+				<h5>Áo Câu Lạc Bộ 2020</h5>
+			</div>
+			<div id="menu-clothes-clb-right">
 
+			</div>
+		</div>
+		<div>
+			<div id="list-clothes-clb">
+
+			</div>
+		</div>
+
+	</div>
 </div>
 </body>
 </html>
