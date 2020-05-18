@@ -12,6 +12,7 @@ class ClothesController extends CI_Controller
 
 	public function home()
 	{
+		$data['clothesCts'] = $this->ClothesModel->getClothesCt();
 		$data['clothesClbs'] = $this->ClothesModel->getClothesClb();
 		return $this->load->view('viewMaster', $data);
 	}
@@ -54,5 +55,10 @@ class ClothesController extends CI_Controller
 	{
 		$data['clothesById'] = $this->ClothesModel->getClothesById($id);
 		$this->load->view('clothes/clothesDetail', $data);
+	}
+
+	public function createClothesCT()
+	{
+
 	}
 }

@@ -18,6 +18,11 @@ class ClothesModel extends CI_Model
 		return $this->db->query("SELECT * FROM clothes WHERE type_id = 1")->result();
 	}
 
+	public function getClothesCt()
+	{
+		return $this->db->query("SELECT * FROM clothes WHERE type_id = 2")->result();
+	}
+
 	public function getClothesById($id)
 	{
 		return $this->db->query("SELECT * FROM clothes WHERE id=" . $id)->row();
