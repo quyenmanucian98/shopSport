@@ -65,15 +65,39 @@
 					<a href="">Bóng</a>
 				</li>
 				<li>
-					<a href="<?php echo site_url('create-new-clothes') ?>">upload</a>
+					<!-- Button trigger modal -->
+					<button class="upload-button"
+							type="button" data-toggle="modal" data-target="#exampleModal">
+						Upload
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+						 aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 style="text-align: center" class="modal-title" id="exampleModalLabel">Loại Sản Phẩm Muốn Tải Lên</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<a href="<?php echo site_url('create-new-clothes') ?>"
+									   style="font-size: 17px; font-weight: bold">Upload</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</li>
 			</ul>
 		</div>
 	</div>
 	<div class="slide">
 		<div class="container">
-		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="<?php echo base_url('logo/slide1.png') ?>" class="d-block w-100" alt="...">
 					</div>
@@ -83,8 +107,8 @@
 					<div class="carousel-item">
 						<img src="<?php echo base_url('logo/slide3.png') ?>" class="d-block w-100" alt="...">
 					</div>
+				</div>
 			</div>
-		</div>
 		</div>
 	</div>
 	<div class="list">
@@ -345,6 +369,215 @@
 
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card center " style="width: 17.33rem; float: left;">
+							<img class="card-img-top"
+								 src="<?php echo base_url() ?>clothes/<?php echo $clothesCts[0]->image ?>"
+								 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="<?php echo site_url('clothes-detail') ?>/<?php echo $clothesCts[0]->id ?>"
+									   style="text-decoration: none; color: black;">
+										<?php echo $clothesCts[0]->title ?>
+									</a>
+								</h5>
+								<div style="text-align: left" class="ml-2">
+									<div>
+										<span class="price">30.000 đ </span>
+										<span>(Vải gai xốp)</span>
+									</div>
+									<div>
+										<span class="price">70.000 đ</span>
+										<span>(Vai thun mịn)</span>
+									</div>
+									<div>
+										<span class="price">100.000 đ</span>
+										<span>(Hàng ST)</span>
+									</div>
+									<div>
+										<span class="price">160.000 đ</span>
+										<span>(Hàng ET)</span>
+									</div>
+									<div>
+										<span class="price">200.000 đ</span>
+										<span>(Hàng body fit player)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card center " style="width: 17.33rem; float: left;">
+							<img class="card-img-top"
+								 src="<?php echo base_url() ?>clothes/<?php echo $clothesCts[1]->image ?>"
+								 alt="Card image cap" style="max-width: 188px; margin: 0 auto">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="<?php echo site_url('clothes-detail') ?>/<?php echo $clothesCts[1]->id ?>"
+									   style="text-decoration: none; color: black;">
+										<?php echo $clothesCts[1]->title ?>
+									</a>
+								</h5>
+								<div style="text-align: left" class="ml-2">
+									<div>
+										<span class="price">30.000 đ </span>
+										<span>(Vải gai xốp)</span>
+									</div>
+									<div>
+										<span class="price">70.000 đ</span>
+										<span>(Vai thun mịn)</span>
+									</div>
+									<div>
+										<span class="price">100.000 đ</span>
+										<span>(Hàng ST)</span>
+									</div>
+									<div>
+										<span class="price">160.000 đ</span>
+										<span>(Hàng ET)</span>
+									</div>
+									<div>
+										<span class="price">200.000 đ</span>
+										<span>(Hàng body fit player)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card center" style="width: 17.33rem; float: left;">
+							<img class="card-img-top"
+								 src="<?php echo base_url() ?>clothes/<?php echo $clothesCts[2]->image ?>"
+								 alt="Card image cap" style="max-width: 200px; margin: 0 auto">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="<?php echo site_url('clothes-detail') ?>/<?php echo $clothesCts[2]->id ?>"
+									   style="text-decoration: none; color: black;">
+										<?php echo $clothesCts[2]->title ?>
+									</a>
+								</h5>
+								<div style="text-align: left" class="ml-2">
+									<div>
+										<span class="price">30.000 đ </span>
+										<span>(Vải gai xốp)</span>
+									</div>
+									<div>
+										<span class="price">70.000 đ</span>
+										<span>(Vai thun mịn)</span>
+									</div>
+									<div>
+										<span class="price">100.000 đ</span>
+										<span>(Hàng ST)</span>
+									</div>
+									<div>
+										<span class="price">160.000 đ</span>
+										<span>(Hàng ET)</span>
+									</div>
+									<div>
+										<span class="price">200.000 đ</span>
+										<span>(Hàng body fit player)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card center " style="width: 17.33rem; float: left;">
+							<img class="card-img-top"
+								 src="<?php echo base_url() ?>clothes/<?php echo $clothesCts[3]->image ?>"
+								 alt="Card image cap" style="max-width: 200px; background: white; margin: 0 auto">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="<?php echo site_url('clothes-detail') ?>/<?php echo $clothesCts[3]->id ?>"
+									   style="text-decoration: none; color: black;">
+										<?php echo $clothesCts[3]->title ?>
+									</a>
+								</h5>
+								<div style="text-align: left" class="ml-2">
+									<div>
+										<span class="price">30.000 đ </span>
+										<span>(Vải gai xốp)</span>
+									</div>
+									<div>
+										<span class="price">70.000 đ</span>
+										<span>(Vai thun mịn)</span>
+									</div>
+									<div>
+										<span class="price">100.000 đ</span>
+										<span>(Hàng ST)</span>
+									</div>
+									<div>
+										<span class="price">160.000 đ</span>
+										<span>(Hàng ET)</span>
+									</div>
+									<div>
+										<span class="price">200.000 đ</span>
+										<span>(Hàng body fit player)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+		</div>
+		<div class="container">
+			<div class="row list-shose">
+				<div class="container">
+					<div class="col-lg-2 menu-shose-left">
+						<h5>Giày Bóng Đá</h5>
+					</div>
+					<div class="col-lg-10 menu-shose-right">
+						<div id="carouselExampleControls3" class="carousel slide mt-3" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active" style="text-align: center">
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày
+										Nike</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày
+										Adidas X</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày
+										Puma</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày
+										Mercurial</a>
+								</div>
+								<div class="carousel-item" style="text-align: center">
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày bóng
+										đá F1</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày bóng
+										đá F2</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày bóng
+										đá Real</a>
+									<a href=""
+									   style="text-decoration: none; color: black; padding: 0px 20px 0px 20px">Giày đinh
+										cao</a>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls3" role="button"
+							   data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls3" role="button"
+							   data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+
 					</div>
 				</div>
 			</div>
