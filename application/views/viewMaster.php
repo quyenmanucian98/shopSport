@@ -90,18 +90,18 @@
 	</div>
 	<div class="list">
 		<div class="container">
-			<div class="row">
+			<div class="row mt-5">
 				<div class="container">
-					<div id="menu-list-clothes-left" class="col-lg-4"
-						 style="width: 100%; height: 60px; background: gold; float: left">
-
+					<div id="menu-list-clothes-left" class="col-lg-3"
+						 style="width: 100%; height: 60px; background: blue; float: left">
+						<h5 style="color: white; text-align: center; margin-top: 6%; font-size: 20px">Áo Câu Lạc Bộ 2020</h5>
 					</div>
-					<div class="col-lg-8" style="width: 100%; height: 60px; background: red; float: left">
+					<div class="col-lg-9" style="width: 100%; height: 60px; background: gainsboro; float: left">
 
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div id="list-clothes-clb" style="height: 60px; background: green">
 
 			</div>
 		</div>
