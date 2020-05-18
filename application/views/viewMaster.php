@@ -132,7 +132,7 @@
 				</div>
 			</div>
 			<div id="list-clothes-clb" style="height: 60px; background: green">
-
+				
 			</div>
 		</div>
 	</div>

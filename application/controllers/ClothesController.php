@@ -12,7 +12,8 @@ class ClothesController extends CI_Controller
 
 	public function home()
 	{
-		return $this->load->view('viewMaster');
+		$data['clothesClb'] = $this->ClothesModel->getClothesClb();
+		return $this->load->view('viewMaster', $data);
 	}
 
 	public function formAdd()
