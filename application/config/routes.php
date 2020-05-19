@@ -59,5 +59,6 @@ $route['create-clothes-success'] = 'ClothesController/create';
 $route['clothes-detail/(:num)'] = 'ClothesController/clothesDetail/$1';
 
 $route['create-new-shoes'] = 'ShoesController/formAdd';
+$route['create-shoes-success'] = 'ShoesController/create';
 
 $route['create-new-ball'] = 'BallController/formAdd';

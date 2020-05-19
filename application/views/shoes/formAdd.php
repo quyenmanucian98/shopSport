@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V1</title>
+	<title>Add New Shoes</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->
@@ -20,12 +20,13 @@
 <body>
 
 <div class="contact1">
-	<div class="container-contact1" style="padding: 90px 130px 88px 90px;background: url('<?php echo base_url()?>logo/adidasX.jpg')">
+	<div class="container-contact1" style="padding: 90px 130px 88px 90px;background: #f0c7c8">
 		<div class="contact1-pic js-tilt" data-tilt>
 			<img src="<?php echo base_url() ?>logo/adidasX.jpg" style="max-width: 500px;">
 		</div>
 
-		<form class="contact1-form validate-form">
+		<form class="contact1-form validate-form" action="<?php echo site_url('create-shoes-success') ?>" method="post"
+			  enctype="multipart/form-data">
 				<span class="contact1-form-title">
 					Thêm Mới Sản Phẩm
 				</span>
