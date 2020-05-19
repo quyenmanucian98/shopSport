@@ -53,12 +53,19 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+/* Clothes */
 $route['home'] = 'ClothesController/home';
 $route['create-new-clothes'] = 'ClothesController/formAdd';
 $route['create-clothes-success'] = 'ClothesController/create';
 $route['clothes-detail/(:num)'] = 'ClothesController/clothesDetail/$1';
+/* End Clothes */
 
+/* Shoes */
 $route['create-new-shoes'] = 'ShoesController/formAdd';
 $route['create-shoes-success'] = 'ShoesController/create';
+$route['shoes-detail/(:num)'] = 'ShoesController/shoesDetail/$1';
+/* End Shoes */
 
+/* Ball */
 $route['create-new-ball'] = 'BallController/formAdd';
+/* End Ball */

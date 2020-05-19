@@ -17,4 +17,9 @@ class ShoesModel extends CI_Model
 	{
 		return $this->db->insert('shoes', $shoes);
 	}
+
+	public function getShoesById($id)
+	{
+		return $this->db->query("SELECT * FROM shoes where id=" . $id)->row();
+	}
 }

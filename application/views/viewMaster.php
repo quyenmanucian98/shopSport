@@ -77,7 +77,8 @@
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 style="text-align: center;margin-left: auto; font-weight: bold; font-size: 20px">Loại Sản
+									<h5 style="text-align: center;margin-left: auto; font-weight: bold; font-size: 20px">
+										Loại Sản
 										Phẩm Muốn Tải Lên</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
@@ -584,6 +585,40 @@
 						</div>
 
 					</div>
+				</div>
+			</div>
+
+			<div>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<?php foreach ($listShoes as $key => $shoes): ?>
+								<div class="card" style="width: 17.33rem; float: left">
+									<img src="<?php echo base_url() ?>shoes/<?php echo $shoes->imageshose ?>"
+										 class="card-img-top" style="max-width: 200px; margin: 0 auto">
+									<div class="card-body">
+										<h5 class="card-title"><a href="<?php echo site_url('shoes-detail')?>/<?php echo $shoes->id?>" style="text-decoration: none; color: black"><?php echo $shoes->titleshose ?></a></h5>
+									</div>
+									<div style="text-align: center">
+										<span style="color: red; font-size: 17px; font-weight: bold">
+											<?php echo $shoes->priceshose . ' đ' ?>
+										</span>
+										<span>
+											(Hàng chính hãng)
+										</span>
+									</div>
+								</div>
+							<?php endforeach; ?>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
 			</div>
 		</div>

@@ -8,12 +8,14 @@ class ClothesController extends CI_Controller
 		parent::__construct();
 		$this->load->model('ClothesModel');
 		$this->load->model('TypeModel');
+		$this->load->model('ShoesModel');
 	}
 
 	public function home()
 	{
 		$data['clothesCts'] = $this->ClothesModel->getClothesCt();
 		$data['clothesClbs'] = $this->ClothesModel->getClothesClb();
+		$data['listShoes'] = $this->ShoesModel->getAllShoes();
 		return $this->load->view('viewMaster', $data);
 	}
 
