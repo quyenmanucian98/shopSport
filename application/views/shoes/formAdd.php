@@ -42,7 +42,7 @@
 			</div>
 
 			<div class="wrap-input1 validate-input">
-				<input class="form-group ml-2" type="file" name="imageshose" style="background: none">
+				<input class="form-control" type="file" name="imageshose" style="background: none; border-radius: 20px; background: #e6e9ea">
 			</div>
 			<div class="container-contact1-form-btn">
 				<button class="contact1-form-btn" style="min-width: 110px">
