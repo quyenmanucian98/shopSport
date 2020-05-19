@@ -12,4 +12,9 @@ class ShoesModel extends CI_Model
 	{
 		return $this->db->get('shoes')->result();
 	}
+
+	public function add($shoes)
+	{
+		return $this->db->insert('shoes', $shoes);
+	}
 }

@@ -36,7 +36,7 @@ class BallController extends CI_Controller
 			redirect('home');
 		} else {
 			$this->session->set_flashdata('upload-clothes-fail', 'Thêm sản phẩm thất bại, vui lòng kiểm tra lại');
-			$this->load->view('clothes/formAdd');
+			$this->load->view('ball/formAdd');
 		}
 	}
 }
