@@ -32,32 +32,30 @@
 				</span>
 
 			<div class="wrap-input1 validate-input" data-validate="Name is required">
-				<input class="input1" type="text" name="name" placeholder="Name">
+				<input class="input1" type="text" name="titleshose" placeholder="Tiêu Đề Sản Phẩm">
 				<span class="shadow-input1"></span>
 			</div>
 
 			<div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-				<input class="input1" type="text" name="email" placeholder="Email">
+				<input class="input1" type="text" name="priceshose" placeholder="Giá Sản Phẩm">
 				<span class="shadow-input1"></span>
 			</div>
 
-			<div class="wrap-input1 validate-input" data-validate="Subject is required">
-				<input class="input1" type="text" name="subject" placeholder="Subject">
-				<span class="shadow-input1"></span>
+			<div class="wrap-input1 validate-input">
+				<input class="form-group ml-2" type="file" name="imageshose" style="background: none">
 			</div>
-
-			<div class="wrap-input1 validate-input" data-validate="Message is required">
-				<textarea class="input1" name="message" placeholder="Message"></textarea>
-				<span class="shadow-input1"></span>
-			</div>
-
 			<div class="container-contact1-form-btn">
-				<button class="contact1-form-btn">
+				<button class="contact1-form-btn" style="min-width: 110px">
 						<span>
-							Send Email
-							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+							Tải Lên
 						</span>
 				</button>
+				<a class="contact1-form-btn ml-1" href="<?php echo site_url('home') ?>"
+				   style="background: black; color: white; min-width: 110px">
+						<span>
+						Hủy
+					</span>
+				</a>
 			</div>
 		</form>
 	</div>

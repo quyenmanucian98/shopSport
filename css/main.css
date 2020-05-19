@@ -223,7 +223,7 @@ textarea.input1 + .shadow-input1 {
 .input1 {
   display: block;
   width: 100%;
-  background: #e6e6e6;
+  /*background: #e6e6e6;*/
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
@@ -274,7 +274,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .contact1-form-btn {
-  min-width: 193px;
+  min-width: 110px;
   height: 50px;
   border-radius: 25px;
   background: #57b846;
